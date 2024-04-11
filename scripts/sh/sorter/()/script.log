@@ -1,0 +1,117 @@
++ IFS='
+	'
+++ pwd
++ dir_name=/Users/piet/Desktop/private/sort
++ main /Users/piet/Desktop/private/sort
+++ pwd
++ local currentDir=/Users/piet/Desktop/private/sort
+++ date +%y%m%d
++ local today=230524
++ mkdir -p /Users/piet/Desktop/private/sort/230524
++ chmod a+rwx /Users/piet/Desktop/private/sort/230524
+++ ls
+++ grep -v '\.sh$'
+++ sort -t . -k 2
++ local 'file_list=230524
+sortMachineBin89
+sortMachineBin99
+sortMachine89.c
+sortingMachine99.c
+script.log
+README_sh.md
+a.out
+sortMachine99_gcc.txt'
++ local dir_name=/Users/piet/Desktop/private/sort
++ for file in '$file_list'
++ [[ -f 230524 ]]
++ for file in '$file_list'
++ [[ -f sortMachineBin89 ]]
++ local suffix=sortMachineBin89
++ echo sortMachineBin89
+sortMachineBin89
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/sortMachineBin89
++ mkdir -p /Users/piet/Desktop/private/sort/230524/sortMachineBin89
++ mv sortMachineBin89 /Users/piet/Desktop/private/sort/230524/sortMachineBin89/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f sortMachineBin99 ]]
++ local suffix=sortMachineBin99
++ echo sortMachineBin99
+sortMachineBin99
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/sortMachineBin99
++ mkdir -p /Users/piet/Desktop/private/sort/230524/sortMachineBin99
++ mv sortMachineBin99 /Users/piet/Desktop/private/sort/230524/sortMachineBin99/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f sortMachine89.c ]]
++ local suffix=c
++ echo c
+c
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/c
++ mkdir -p /Users/piet/Desktop/private/sort/230524/c
++ mv sortMachine89.c /Users/piet/Desktop/private/sort/230524/c/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f sortingMachine99.c ]]
++ local suffix=c
++ echo c
+c
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/c
++ mkdir -p /Users/piet/Desktop/private/sort/230524/c
++ mv sortingMachine99.c /Users/piet/Desktop/private/sort/230524/c/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f script.log ]]
++ local suffix=log
++ echo log
+log
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/log
++ mkdir -p /Users/piet/Desktop/private/sort/230524/log
++ mv script.log /Users/piet/Desktop/private/sort/230524/log/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f README_sh.md ]]
++ local suffix=md
++ echo md
+md
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/md
++ mkdir -p /Users/piet/Desktop/private/sort/230524/md
++ mv README_sh.md /Users/piet/Desktop/private/sort/230524/md/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f a.out ]]
++ local suffix=out
++ echo out
+out
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/out
++ mkdir -p /Users/piet/Desktop/private/sort/230524/out
++ mv a.out /Users/piet/Desktop/private/sort/230524/out/
++ sleep 0.3
++ for file in '$file_list'
++ [[ -f sortMachine99_gcc.txt ]]
++ local suffix=txt
++ echo txt
+txt
++ local new_dir_name=/Users/piet/Desktop/private/sort/230524/txt
++ mkdir -p /Users/piet/Desktop/private/sort/230524/txt
++ mv sortMachine99_gcc.txt /Users/piet/Desktop/private/sort/230524/txt/
++ sleep 0.3
++ tree /Users/piet/Desktop/private/sort/230524
+/Users/piet/Desktop/private/sort/230524
+├── c
+│   ├── sortMachine89.c
+│   └── sortingMachine99.c
+├── log
+│   └── script.log
+├── md
+│   └── README_sh.md
+├── out
+│   └── a.out
+├── sortMachineBin89
+│   └── sortMachineBin89
+├── sortMachineBin99
+│   └── sortMachineBin99
+└── txt
+    └── sortMachine99_gcc.txt
+
+8 directories, 8 files
